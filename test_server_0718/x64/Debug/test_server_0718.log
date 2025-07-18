@@ -1,0 +1,118 @@
+﻿  coucou_server_windows.cpp
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(79,50): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(113,17): error C2065: 'role': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(133,22): error C2065: 'role': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(141,35): error C2001: 상수에 줄 바꿈 문자가 있습니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(143,17): error C2146: 구문 오류: ';'이(가) 'string' 식별자 앞에 없습니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(100,5): error C2317: 줄 '100'에서 시작하는 'try' 블록에 catch 처리기가 없습니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(172,9): error C2181: if와 짝을 이루지 않는 잘못된 else문입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(172,18): error C2065: 'signal': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(174,27): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(175,28): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(180,33): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(182,60): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(184,38): warning C4244: '초기화 중': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(192,21): error C2181: if와 짝을 이루지 않는 잘못된 else문입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(204,46): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(205,38): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(208,33): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(210,60): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(212,38): warning C4244: '초기화 중': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(220,21): error C2181: if와 짝을 이루지 않는 잘못된 else문입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(232,38): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(235,33): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(237,60): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(239,38): warning C4244: '초기화 중': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(247,21): error C2181: if와 짝을 이루지 않는 잘못된 else문입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(258,18): error C2065: 'signal': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(260,27): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(265,32): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(266,29): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(272,33): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(273,60): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(299,37): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(300,69): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(320,41): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(321,74): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(337,99): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(341,90): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(359,37): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(361,64): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(393,39): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(394,35): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(395,29): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(396,39): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(399,33): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(401,60): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(437,37): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(438,64): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(505,41): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(507,74): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(548,21): error C2181: if와 짝을 이루지 않는 잘못된 else문입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(552,53): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(560,49): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(566,31): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(567,29): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(573,33): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(574,60): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(589,18): error C2065: 'signal': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(594,29): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(595,56): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(625,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(665,87): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(668,18): error C2065: 'signal': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(670,22): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(671,32): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(672,23): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(674,29): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(677,87): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(681,18): error C2065: 'signal': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(683,27): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(684,27): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(685,27): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(701,33): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(703,60): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(706,25): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(706,32): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(707,33): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(713,38): warning C4244: '초기화 중': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(733,18): error C2065: 'signal': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(735,27): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(736,27): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(737,28): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(738,27): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(755,33): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(757,60): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(760,25): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(760,32): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(761,30): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(767,38): warning C4244: '초기화 중': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(787,18): error C2065: 'signal': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(789,27): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(790,28): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(804,33): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(806,60): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(813,25): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(814,33): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(815,32): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(816,32): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(817,33): error C2065: 'row': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(823,38): warning C4244: '초기화 중': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(843,18): error C2065: 'signal': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(845,20): error C2374: 'role': 재정의. 여러 번 초기화했습니다.
+      C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(260,20):
+      'role' 선언을 참조하십시오.
+  
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(845,20): error C2086: 'std::string role': 재정의
+      C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(260,20):
+      'role' 선언을 참조하십시오.
+  
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(845,27): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(852,28): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(853,30): error C2065: 'j': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(861,29): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(862,56): error C2065: 'conn': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(868,52): error C2065: 'path': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(870,39): error C2065: 'path': 선언되지 않은 식별자입니다.
+C:\Users\lbh\Desktop\5team_project\test_server_0718\coucou_server_windows.cpp(870,39): error C1003: 오류 수가 100개를 초과했습니다. 컴파일을 중지합니다.
