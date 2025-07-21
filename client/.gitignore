@@ -1,0 +1,5 @@
+# Ignore build output folders
+client/bin/
+client/obj/
+**/bin/
+**/obj/
