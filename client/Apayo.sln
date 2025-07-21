@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apayo", "Apayo.csproj", "{DC7CBF97-4C7C-4757-B145-946391E7703F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC7CBF97-4C7C-4757-B145-946391E7703F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7CBF97-4C7C-4757-B145-946391E7703F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7CBF97-4C7C-4757-B145-946391E7703F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7CBF97-4C7C-4757-B145-946391E7703F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96A3B9EC-9FDC-4356-81AE-BD7CDC4FF429}
+	EndGlobalSection
+EndGlobal

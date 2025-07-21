@@ -1,0 +1,99 @@
+﻿<Window x:Class="Apayo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Apayo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="400">
+    <Grid Width="400" Height="800">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TabControl x:Name="MyTabControl" Grid.ColumnSpan="3">
+            <TabItem Header="login" Margin="-2,-2,2,0">
+                <Grid Background="#FFE5E5E5">
+                    <Button x:Name="Login" Content="로그인" HorizontalAlignment="Center" Margin="0,495,0,0" VerticalAlignment="Top" Height="36" Width="122" Click="Login_Click"/>
+                    <Button x:Name="Join" Content="회원가입" HorizontalAlignment="Center" Margin="0,440,0,0" VerticalAlignment="Top" Height="29" Width="92" Click="Join_Click"/>
+                    <TextBox x:Name="IdTextBox" HorizontalAlignment="Center" Margin="0,200,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="id_TextChanged"/>
+                    <PasswordBox x:Name="PasswordTextBox" HorizontalAlignment="Center" Margin="0,239,0,0" VerticalAlignment="Top" Width="120"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="mic" Height="20" VerticalAlignment="Top">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0*"/>
+                        <ColumnDefinition Width="23*"/>
+                        <ColumnDefinition Width="33*"/>
+                        <ColumnDefinition Width="17*"/>
+                        <ColumnDefinition Width="21*"/>
+                        <ColumnDefinition Width="300*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="OutputTextBox" HorizontalAlignment="Right" Margin="0,694,15,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" TextChanged="OutputTextBox_TextChanged" Grid.Column="4" Height="50" Grid.ColumnSpan="2"/>
+                    <Button x:Name="RecordButton"
+                        Content="녹음"
+                        Click="RecordButton_Click_1"
+                        Margin="16,694,0,0"
+                        VerticalAlignment="Top"
+                        Grid.Column="1"
+                        Height="50"
+                        Width="50" HorizontalAlignment="Left" Grid.ColumnSpan="3"/>
+                    <ScrollViewer x:Name="ChatScrollViewer"
+                        VerticalScrollBarVisibility="Auto"
+                        Grid.Column="1" Grid.ColumnSpan="5"
+                        Margin="10,10,10,0"
+                        Height="670"
+                        VerticalAlignment="Top">
+                        <StackPanel x:Name="ChatStackPanel" Orientation="Vertical" />
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+            <TabItem Header="join" Margin="-2,-2,-2,2">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0*"/>
+                        <ColumnDefinition Width="7*"/>
+                        <ColumnDefinition Width="11*"/>
+                        <ColumnDefinition Width="35*"/>
+                        <ColumnDefinition Width="64*"/>
+                        <ColumnDefinition Width="277*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="back_btn" Content="Button" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" Click="back_btn_Click" Grid.Column="2" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="join_IdTextBox" Grid.Column="5" HorizontalAlignment="Left" Margin="54,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="Label" Grid.ColumnSpan="2"/>
+                    <Label Grid.Column="4" Content="아이디" HorizontalAlignment="Left" Margin="32,141,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <Label Grid.Column="4" Content="비밀번호" HorizontalAlignment="Left" Margin="32,170,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.622,1.505" Grid.ColumnSpan="2"/>
+                    <PasswordBox x:Name="join_PasswordTextBox" Grid.Column="5" HorizontalAlignment="Left" Margin="54,174,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Label Grid.Column="4" Content="비밀번호 확인" HorizontalAlignment="Left" Margin="32,199,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.622,1.505" Grid.ColumnSpan="2"/>
+                    <PasswordBox Grid.Column="5" HorizontalAlignment="Left" Margin="54,203,0,0" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="join_adress" Grid.Column="5" HorizontalAlignment="Left" Margin="54,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Label Grid.Column="4" Content="주소" HorizontalAlignment="Left" Margin="32,244,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="join_phone" Grid.Column="5" HorizontalAlignment="Left" Margin="54,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Label Grid.Column="4" Content="핸드폰번호" HorizontalAlignment="Left" Margin="32,268,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <Button x:Name="join_button" Grid.Column="5" Content="회원가입" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" Height="80" Width="140" Click="JoinButton_Click"/>
+                    <TextBox x:Name="join_Gender" Grid.Column="5" HorizontalAlignment="Left" Margin="54,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Label Grid.Column="4" Content="성별" HorizontalAlignment="Left" Margin="32,292,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="join_year" Grid.Column="5" HorizontalAlignment="Left" Margin="54,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Label Grid.Column="4" Content="생년원일" HorizontalAlignment="Left" Margin="32,315,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="Join_name" Grid.Column="5" HorizontalAlignment="Left" Margin="54,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Label Grid.Column="4" Content="성명" HorizontalAlignment="Left" Margin="32,221,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="main">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="기록보기" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Height="50"/>
+                    <Button Content="예측시작" HorizontalAlignment="Center" Margin="0,275,0,0" VerticalAlignment="Top" Height="50" Width="150" Click="Button_Click_1"/>
+                    <Button Content="환경설정" HorizontalAlignment="Center" Margin="0,447,0,0" VerticalAlignment="Top" Grid.Column="2" Width="150" Height="50"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
