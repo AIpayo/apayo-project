@@ -406,7 +406,7 @@ std::pair<double, double> getCoordinatesFromAddress(const std::string& address) 
 
     std::string url = "https://dapi.kakao.com/v2/local/search/address.json?query=" + std::string(encoded);
     struct curl_slist* headers = nullptr;
-    std::string api_key = "3e79cee032866364a65db09ff4d13f10";
+    std::string api_key = "aa";
     headers = curl_slist_append(headers, ("Authorization: KakaoAK " + api_key).c_str());
 
     curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
